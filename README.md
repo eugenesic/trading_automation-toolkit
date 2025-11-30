@@ -19,3 +19,8 @@ Next 1080 days – only up.
 Watch the repo to follow daily progress
 
 Current streak: Day 1
+
+**Day 2- Completed**
+One command -> entire history of top-20 coins 
+-> Saved as fast Parquet files
+
