@@ -1,0 +1,121 @@
+TRADING AUTOMATION TOOLKIT
+Learning Roadmap & Vision
+
+This is a zero-to-expert journey in software engineering, quantitative finance, and systems design — built entirely in public.
+No prior experience. No shortcuts. Just daily progress, one commit at a time.
+
+GOAL:
+Go from "Hello World" to hired as a software engineer or quant researcher at top-tier firms like:
+- OpenAI
+- Anthropic
+- Jane Street
+- Citadel Securities
+- HRT, Two Sigma, Jump Trading
+
+All through self-education, open-source projects, and relentless practice.
+
+----------------------------------------------------------------------------------------------------
+
+CURRENT STRUCTURE (Day 1–3)
+
+trading_automation-toolkit/
+│
+├── .gitignore                 # Ignore binaries, caches, large files
+├── README.md                  # Public log of progress (Day 1, Day 2, ...)
+├── day01_basics.py            # Python basics with trading examples
+├── day02_data_fetcher.py      # Download & save crypto data → Parquet
+├── day03_lightbt.py           # Simple backtester (SMA strategy, equity curve)
+│
+└── notebooks/                 # For exploration, visualization, testing
+    └── exploration.ipynb
+
+Every file is a learning milestone — not just code, but proof of growth.
+
+----------------------------------------------------------------------------------------------------
+
+LEARNING PATH: From Zero to World-Class
+
+PHASE 1: Learn to Code (Days 1–30)
+- Variables, loops, functions, conditionals
+- Data structures: lists, dicts, strings, JSON
+- Automate real tasks: watchlists, PnL, signals
+- Write clean, readable code with comments
+- Master Git and GitHub (commits, branches, .gitignore)
+
+Goal: Be comfortable writing small tools in Python.
+
+PHASE 2: Data & Backtesting (Days 31–90)
+- Work with real financial data (OHLCV, 1-minute bars)
+- Store data efficiently (Parquet, CSV, databases)
+- Build a correct backtester (avoid lookahead, fees, slippage)
+- Calculate key metrics: CAGR, Sharpe, max drawdown
+- Test strategies on BTC, ETH, and altcoins
+
+Goal: Understand how trading strategies are tested — and why most fail.
+
+PHASE 3: Systems & Engineering (Days 91–180)
+- Modular code: split into functions and files
+- Add logging, error handling, config files
+- Use type hints and write unit tests
+- Optimize performance (vectorization, memory)
+- Set up CI/CD: test on every commit
+
+Goal: Write code that looks like it belongs in a real firm.
+
+PHASE 4: Math & Finance (Days 181–365)
+- Statistics: mean, variance, correlation, p-values
+- Time series: trends, volatility, stationarity
+- Risk management: position size, stop-loss, Kelly criterion
+- Portfolio math: diversification, Sharpe ratio
+- Backtest validation: walk-forward, Monte Carlo
+
+Goal: Think like a quant — use data and logic, not guesses.
+
+PHASE 5: Advanced Topics (Days 366–720)
+- Machine learning: sklearn, PyTorch, forecasting
+- NLP: analyze news, social media, filings
+- Reinforcement learning (careful: easy to overfit)
+- Low-latency systems: C++, Rust, async code
+- Order book dynamics and market microstructure
+
+Goal: Compete with research-level codebases.
+
+PHASE 6: Real Systems & Hiring (Days 721–1080)
+- Connect to exchange APIs (Binance, Bybit)
+- Run paper trading 24/7 with monitoring
+- Deploy on cloud (Docker, AWS, cron jobs)
+- Build project portfolio
+- Practice coding interviews (LeetCode, system design)
+- Apply to top companies — and get offers
+
+Goal: Land a job solving hard technical problems at scale.
+
+----------------------------------------------------------------------------------------------------
+
+WHY THIS WORKS
+
+This is not about getting rich from trading.
+It’s about using trading as a training ground to master:
+
+- Software engineering
+- Data handling
+- Math and statistics
+- Independent learning
+- Problem-solving under uncertainty
+
+These are the exact skills that OpenAI, Jane Street, and Citadel look for — just applied to a real-world domain.
+
+----------------------------------------------------------------------------------------------------
+
+FINAL NOTE
+
+This repo is my coding dojo.
+I don’t know everything — but I commit to learning every day.
+
+If you're also building from zero to expert:
+- Star the repo
+- Watch the progress
+- Build your own path
+
+The only rule?
+Show up. Every day.
