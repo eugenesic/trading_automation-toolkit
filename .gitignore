@@ -1,0 +1,70 @@
+# Исключаем распространённые тяжёлые типы файлов (в любой директории)
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+*.xz
+*.iso
+*.dmg
+*.img
+
+# Видео и аудио файлы
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+*.mp3
+*.wav
+*.aac
+*.flac
+
+# Изображения (опционально, если не нужны в репо)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.webp
+
+# Бинарные и скомпилированные файлы
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.o
+*.a
+*.out
+*.bin
+
+# Кэши и временные файлы
+*.log
+*.tmp
+*.temp
+.cache/
+.DS_Store
+Thumbs.db
+
+# Папки с данными и зависимостями
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# IDE и редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
